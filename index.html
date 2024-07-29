@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="#"><img src="mt.jpg" alt="Book My Trip Logo"></a>
+            </div>
+            <div class="contact-info">
+                <p>Call 24/7 Support <br>
+                +91 (44) 1234 5678</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search entire website here">
+            </div>
+            <div class="account-buttons">
+                <button>Sign Up</button>
+                <button>My Account</button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Hotels</a>
+                    <ul>
+                        <li class="ind"><a href="#">Hotels in India</a></li>
+                        <li><a href="#">International Hotels</a></li>
+                        <li><a href="#">Popular Hotels in Asia</a></li>
+                        <li><a href="#">Popular Hotels in Europe</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Hotel Deals of the Week</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Vacations</a></li>
+                <li><a href="#">Hot Deals</a></li>
+                <li><a href="#">Travel Guides</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-hotel">
+            
+            <img src="498263.jpeg" alt="Paris Hilton Hotel, Mumbai, India">
+            <div class="hotel-info">
+                <h2>Paris Hilton Hotel, Mumbai, India</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+             <div class="doll"><p><h3 class="dol">$1200</h3>inclusive of food, dinner</p>
+            </div>
+            </div>
+        </section>
+        
+        <div class="book">Book your Trip</div>
+        <section class="book-trip">
+            <form>
+                <label for="what">What?</label>
+                <select id="what">
+                    <option>Hotel</option>
+                    <option>Flight</option>
+                    <option>Vacation</option>
+                </select>
+
+                <label for="where">Where?</label>
+                <input type="text" id="where" placeholder="Location">
+
+                <label for="when">When?</label>
+                <input type="date" id="when">
+
+                <label for="who">Who?</label>
+                <select id="rooms">
+                    <option>1 Room</option>
+                    <option>2 Rooms</option>
+                </select>
+                <select id="adults">
+                    <option>1 Adult</option>
+                    <option>2 Adults</option>
+                </select>
+                <select id="children">
+                    <option>0 Children</option>
+                    <option>1 Child</option>
+                </select>
+
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="popular-hotels">
+            <h2 class="pop">Popular Hotels</h2>
+            <div class="hotel">
+                <img src="villa.jpeg" alt="Hotel">
+                <p>Hotel Tajmahal Palace</p>
+                <p>Mumbai, India</p>
+                <p class="amo">$2000</p>
+            </div>
+            <div class="hotel">
+                <img src="villa2.jpg" alt="Hotel2">
+                <p>Mont Blanc</p>
+                <p>Zurich, Switzerland</p>
+                <p class="amo">$3200</p>
+            </div>
+            <div class="hotel">
+                <img src="villa3.jpg" alt="Hotel3">
+                <p>Hotel Mariott</p>
+                <p>Melbourne, Australia</p>
+                <p class="amo">$1200</p>
+            </div>
+        </section>
+
+        <section class="hot-deals">
+            <h2>Hot Deals</h2>
+            <div class="deal">
+                <img src="paris.jpg" alt="Paris Eurostar Breaks">
+                <p class="isl">Paris Eurostar Breaks</p>
+                <p class="ils">From $350</p>
+            </div>
+            <div class="deal">
+                <img src="island.jpg" alt="Maldives">
+                <p class="isl">Maldives</p>
+                <p class="ils">From $450</p>
+            </div>
+        </section>
+
+        <section class="latest-blogs">
+            <h2>Latest Blogs ></h2>
+            <p>Best places to visit in India</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="company">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About the company</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3>Don't miss our deals and offers</h3>
+                <input type="email" placeholder="Enter your email id">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
