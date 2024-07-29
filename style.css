@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.contact-info{
+    color: grey;
+}
+
+.header-top {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-top .logo img {
+    height: 50px;
+}
+
+.header-top .contact-info, .header-top .search-bar, .header-top .account-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .search-bar input {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.header-top .account-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f0ad4e;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #004080;
+}
+
+nav ul .ind li{
+    width: 100%;
+    background-color: gray;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0056b3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul ul li {
+    width: 200px;
+    margin-top: 5px;
+}
+
+nav ul ul li a {
+    padding: 10px;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+.featured-hotel {
+    position: relative;
+    background-color: white;
+    padding: px;
+    margin-bottom: px;
+    text-align: center;
+}
+
+.ind{
+    color: grey;
+    background-color: white;
+}
+
+.dol{
+    display: inline;
+}
+.doll{
+    background-color:#004080;
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.featured-hotel img {
+    margin-top: -30px;
+    height: auto;
+    width: 110%;
+    margin-left:-20px;;
+    padding-left: 0;
+    
+}
+
+.featured-hotel .hotel-info {
+    font-size: smaller;
+    text-align:center;
+    margin-top: 30%;
+    width: 40%;
+    height: 125px;
+    position:absolute;
+    top: 70px;
+    left: 50%;
+    background-color:#0056b3;
+    color: white;
+    padding: ;
+}
+
+.hotel-info{
+    color:
+}
+
+.book{
+    width:fit-content;
+    height: fit-content;
+    color: #f4f4f4;
+    background-color: black;
+    margin-left:20px;
+    padding: 0px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book-trip {
+    background-color: rgb(234, 222, 222);
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.pop{
+    display: block;
+}
+
+.popular-hotels{
+    display: flex;
+    margin-right: 150px
+}
+
+.hotel{
+    margin: 30px;
+    padding-top: 30px;
+    display: inline;
+}
+
+.amo{
+    padding: 10px 20px;
+    display: inline;
+    background: #0056b3;
+    color: white;
+}
+
+.hot-deals{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.deal{
+    padding: 30px;
+}
+
+.isl{
+    margin-top: -200px;
+    color: white;
+    margin-left: 200px;
+}
+
+.ils{
+    margin-left: 200px;
+    color: white;
+}
+
+.latest-blogs{
+    width: 100%;
+    background-color: gainsboro;
+    margin-top: 150px;
+    display: flex;
+}
+
+.latest-blogs h2{
+    margin-left: 20px;
+}
+
+.footer-content{
+    margin-left: 250px;
+    display: flex;
+    color: grey;
+}
+.latest-blogs p{
+    margin-top: 26px;
+    margin-left: 50px;
+}
+
+.footer-content .company{
+    padding: 20px;
+    text-align:start;
+}
+
+.footer-content .company ul li a{
+    
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-content .company ul li{
+    list-style: none;
+}
+
+.footer-content h3{
+    margin-left: 40px;
+}
